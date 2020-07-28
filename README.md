@@ -177,7 +177,7 @@ Click the "Run" button.
 
 ![run3](Images/run3.png)
 
-As you can see below - the domain/subdomains were parsed from the URL Enitity in the Incident and added to the the Custom URL Category. 
+As you can see below - the domain/subdomains were parsed from the URL Entity in the Incident and added to the the Custom URL Category. 
 
 ![](Images/gitinc.png)
 ![](Images/gitinc1.png)
