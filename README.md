@@ -9,7 +9,7 @@ This ARM template will deploy an Integration Account and a Playbook. It will pul
 #
 
 Subdomains are parsed from a url string by first removing the following substrings, if found: "https://", "http://", and "ww<span></span>w.". 
-The result is saved in a new string and then a search is performed on said string for the first occuring "/". 
+The result is saved in a new string and then a search is performed on said string for the first occurring "/". 
 If found, all characters starting at this position to the end of the string are removed.
 
 For example:
@@ -116,7 +116,7 @@ In the **SETTINGS** section:
 
 * **Integration Account Name**: This can be left as “Zscaler-Logicapp” or you may change it.  
 
-* **Integration Account Pricing Tier**: You will need to select your Integration Account pricing tier here. Note that there are a limited number of free Integration Accounts you are alloted and you will need to select a higher tier if you have used these up.  
+* **Integration Account Pricing Tier**: You will need to select your Integration Account pricing tier here. Note that there are a limited number of free Integration Accounts you are allotted and you will need to select a higher tier if you have used these up.  
 
 * **Playbook Name**: This can be left as “Zscaler-add-Domains-to-URL-Category” or you may change it.  
 
@@ -185,3 +185,4 @@ As you can see below - the domain/subdomains were parsed from the URL Entity in 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FArbala-Security%2FZscaler-add-Domains-to-URL-Category%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="https://aka.ms/deploytoazurebutton""/>
 </a>
+
